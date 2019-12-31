@@ -1,0 +1,60 @@
+.map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 30%;
+    font-family: Arial, sans-serif;
+}
+
+.pane {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    background: ghostwhite;
+    border-left: 5px solid lightsteelblue;
+    box-sizing: border-box;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+.ol-attribution > ul {
+    font-size: 2.3rem;
+}
+
+.ol-rotate {
+    top: 3em;
+}
+
+.ol-mouse-position {
+    right: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+    padding: 0 3px;
+}
+
+.ol-scale-line {
+    left: 6px;
+    bottom: 225px;
+}
+
+.ol-overviewmap-map {
+    bottom: 60px;
+    position: absolute;
+}
+
+.btn-list {
+    padding: 15px 20px;
+}
+
+.btn-list li {
+    margin-bottom: 5px;
+}
+
+.ol-zoom-extent {
+    top: 5.6em;
+    right: .5em;
+    left: inherit;
+}

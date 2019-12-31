@@ -1,0 +1,135 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74, 40.71]
+      },
+      "properties": {
+        "name": "New York, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.99, 39.73]
+      },
+      "properties": {
+        "name": "Denver, CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.33, 47.61]
+      },
+      "properties": {
+        "name": "Seattle, WA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-115.17, 36.12]
+      },
+      "properties": {
+        "name": "Las Vegas, NV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.35, 29.97]
+      },
+      "properties": {
+        "name": "Houston, TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.42, 33.65]
+      },
+      "properties": {
+        "name": "Atlanta, GA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.65, 41.90]
+      },
+      "properties": {
+        "name": "Chicago, IL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.02, 42.42]
+      },
+      "properties": {
+        "name": "Detriot, MI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.60, 35.40]
+      },
+      "properties": {
+        "name": "Oklahoma Cty, OK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-108.53, 45.80]
+      },
+      "properties": {
+        "name": "Billings, MT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.28, 25.82]
+      },
+      "properties": {
+        "name": "Miami Intl, FL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.22, 43.57]
+      },
+      "properties": {
+        "name": "Boise, ID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.80, 46.90]
+      },
+      "properties": {
+        "name": "Fargo, ND"
+      }
+    }
+  ]
+}

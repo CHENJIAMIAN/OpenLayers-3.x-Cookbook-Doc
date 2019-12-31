@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*全屏*/
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        aside {
+            width: 300px;
+            height: 100%;
+            display: inline-block;
+            overflow: auto;
+        }
+
+        /*再让div 充满整个*/
+        content {
+            height: 100%;
+            width: calc(100% - 300px);
+            position: absolute;
+        }
+
+        iframe {
+            height: -webkit-fill-available;
+            width: -webkit-fill-available;
+        }
+
+        header {
+            margin-left: 10px;
+            padding: 5px;
+            color: #364149;
+        }
+
+        section {
+            margin-left: 40px;
+            padding: 5px;
+        }
+
+        a {
+            color: #505d6b;
+            font-size: 14px;
+            font-weight: 400;
+            overflow: hidden;
+            text-decoration: none;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 20px;
+            padding: 20px 0;
+            border-bottom: 1px solid;
+            margin: 0;
+        }
+
+        /*控制整个滚动条*/
+        ::-webkit-scrollbar {
+            width: 5px;
+            height: 10px;
+            background-clip: padding-box;
+        }
+
+        /*滚动条两端方向按钮*/
+        ::-webkit-scrollbar-button {}
+
+        /*滚动条中间滑动部分*/
+        ::-webkit-scrollbar-thumb {
+            background-color: lightgray;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <aside>
+        <header class="title">OpenLayers 3.x食谱-第二版</header>
+
+        <header>Web映射基础</header>
+        <section class="Web映射基础"><a href="#">介绍</a></section>
+        <section class="Web映射基础"><a href="#">创建一个简单的全屏地图</a></section>
+        <section class="Web映射基础"><a href="#">在地图视图中移动</a></section>
+        <section class="Web映射基础"><a href="#">玩地图的选项</a></section>
+        <section class="Web映射基础"><a href="#">管理地图的堆栈层</a></section>
+        <section class="Web映射基础"><a href="#">管理地图的控件</a></section>
+        <section class="Web映射基础"><a href="#">限制地图的范围</a></section>
+
+        <header>添加栅格图层</header>
+        <section class="添加栅格图层"><a href="#">介绍</a></section>
+        <section class="添加栅格图层"><a href="#">使用OpenStreetMap图像</a></section>
+        <section class="添加栅格图层"><a href="#">使用必应图像</a></section>
+        <section class="添加栅格图层"><a href="#">创建图像层</a></section>
+        <section class="添加栅格图层"><a href="#">在WMS图层中设置图块大小</a></section>
+        <section class="添加栅格图层"><a href="#">更改图层不透明度</a></section>
+        <section class="添加栅格图层"><a href="#">更改缩放效果</a></section>
+        <section class="添加栅格图层"><a href="#">添加WMS图层</a></section>
+        <section class="添加栅格图层"><a href="#">缓冲图层数据以改善地图导航</a></section>
+
+        <header>使用向量层</header>
+        <section class="使用向量层"><a href="#">介绍</a></section>
+        <section class="使用向量层"><a href="#">从WFS服务器添加功能</a></section>
+        <section class="使用向量层"><a href="#">从WKT读取和创建功能</a></section>
+        <section class="使用向量层"><a href="#">以编程方式创建特征</a></section>
+        <section class="使用向量层"><a href="#">使用AJAX直接阅读功能</a></section>
+        <section class="使用向量层"><a href="#">使用叠加层删除或克隆功能</a></section>
+        <section class="使用向量层"><a href="#">使用点要素作为标记</a></section>
+        <section class="使用向量层"><a href="#">使用集群策略</a></section>
+        <section class="使用向量层"><a href="#">创建热图</a></section>
+        <section class="使用向量层"><a href="#">将文本标签添加到几何点</a></section>
+        <section class="使用向量层"><a href="#">将要素导出为GeoJSON</a></section>
+        <section class="使用向量层"><a href="#">添加GML层</a></section>
+        <section class="使用向量层"><a href="#">添加KML层</a></section>
+        <section class="使用向量层"><a href="#">缩放到图层范围</a></section>
+
+        <header>处理事件</header>
+        <section class="处理事件"><a href="#">介绍</a></section>
+        <section class="处理事件"><a href="#">使用键盘平移或缩放</a></section>
+        <section class="处理事件"><a href="#">侦听矢量图层要素的事件</a></section>
+        <section class="处理事件"><a href="#">创建并排地图比较器</a></section>
+        <section class="处理事件"><a href="#">实施地图图层的进行中指示器</a></section>
+        <section class="处理事件"><a href="#">监听鼠标或触摸事件</a></section>
+
+        <header>添加控件</header>
+        <section class="添加控件"><a href="#">介绍</a></section>
+        <section class="添加控件"><a href="#">从WMS服务器获取信息</a></section>
+        <section class="添加控件"><a href="#">从数据源获取功能信息</a></section>
+        <section class="添加控件"><a href="#">使用地理位置</a></section>
+        <section class="添加控件"><a href="#">修改功能</a></section>
+        <section class="添加控件"><a href="#">将控件放置在地图外部</a></section>
+        <section class="添加控件"><a href="#">测量距离和面积</a></section>
+        <section class="添加控件"><a href="#">添加和删除控件</a></section>
+        <section class="添加控件"><a href="#">跨多个矢量层绘制要素</a></section>
+
+
+        <header>造型功能</header>
+        <section class="造型功能"><a href="#">介绍</a></section>
+        <section class="造型功能"><a href="#">基于几何类型的样式特征</a></section>
+        <section class="造型功能"><a href="#">基于要素属性的样式</a></section>
+        <section class="造型功能"><a href="#">样式交互呈现意图</a></section>
+        <section class="造型功能"><a href="#">样式化群集特征</a></section>
+        <section class="造型功能"><a href="#">样式层</a></section>
+
+        <header>超越基础</header>
+        <section class="超越基础"><a href="#">处理投影</a></section>
+        <section class="超越基础"><a href="#">介绍</a></section>
+        <section class="超越基础"><a href="#">以手绘模式绘制</a></section>
+        <section class="超越基础"><a href="#">使用自定义OpenLayers库构建</a></section>
+        <section class="超越基础"><a href="#">修改图层外观</a></section>
+        <section class="超越基础"><a href="#">创建一个自定义控件</a></section>
+        <section class="超越基础"><a href="#">利用地图固定链接</a></section>
+        <section class="超越基础"><a href="#">天气预报图像之间的过渡</a></section>
+        <section class="超越基础"><a href="#">通过拖出选择区域来选择特征</a></section>
+        <section class="超越基础"><a href="#">通过拖放将要素添加到矢量层</a></section>
+        <section class="超越基础"><a href="#">索引</a></section>
+
+    </aside>
+
+    <content>
+        <iframe id="content" src="./封面.pdf"></iframe>
+    </content>
+
+    <script>
+        const content = document.getElementById('content');
+        document.getElementsByTagName('aside')[0].addEventListener('click', function (event) {
+            if (event.srcElement.tagName === 'A') {
+                content.src = `./${event.srcElement.parentElement.className}/${event.srcElement.innerHTML}.pdf`
+            }
+        })
+    </script>
+</body>
+
+</html>

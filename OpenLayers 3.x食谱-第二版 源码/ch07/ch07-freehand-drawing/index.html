@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Freehand drawing | Chapter 7</title>
+    <link rel="stylesheet" href="../../assets/css/ol.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pane">
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="convert-to-circle">Convert to circle</label>
+                <input type="radio" name="convert" value="circle" id="convert-to-circle">
+            </div>
+            <div class="form-group">
+                <label for="convert-to-rectangle">Convert to rectangle</label>
+                <input type="radio" name="convert" value="rectangle" id="convert-to-rectangle" checked>
+            </div>
+        </form>
+    </div>
+    <div id="js-map" class="map"></div>
+    <script src="../../assets/js/ol-debug.js"></script>
+    <script src="freehand-drawing.js"></script>
+</body>
+</html>

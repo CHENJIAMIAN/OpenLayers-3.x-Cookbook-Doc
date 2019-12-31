@@ -1,0 +1,34 @@
+.map {
+    position: absolute;
+    top: 0;
+    bottom: 220px;
+    left: 0;
+    right: 0;
+    font-family: Arial, sans-serif;
+}
+
+.pane {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 220px;
+    background: ghostwhite;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.ol-attribution > ul {
+    font-size: 2.3rem;
+}
+
+.panel {
+    height: 180px;
+}
+
+.feature-info {
+    overflow: scroll;
+    height: 140px;
+    padding: 10px;
+}

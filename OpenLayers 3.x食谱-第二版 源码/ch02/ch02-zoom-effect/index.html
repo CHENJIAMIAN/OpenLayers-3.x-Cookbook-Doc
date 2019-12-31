@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Zoom effects | Chapter 2</title>
+    <link rel="stylesheet" href="../../assets/css/ol.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="js-map" class="map"></div>
+    <div class="pane">
+        <h1>Zoom effect</h1>
+
+        <p>Choose an animation effect:</p>
+        <select id="js-zoom-effect">
+            <option value="easeIn">easeIn</option>
+            <option value="easeOut">easeOut</option>
+            <option value="inAndOut" selected>inAndOut</option>
+            <option value="linear">linear</option>
+        </select>
+
+        <p>Choose a speed:</p>
+        <select id="js-zoom-speed">
+            <option value="100">100ms</option>
+            <option value="250">250ms</option>
+            <option value="500">500ms</option>
+            <option value="1000" selected>1000ms</option>
+        </select>
+
+        <p>Bounce?</p>
+        <select id="js-bounce">
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+        </select>
+    </div>
+    <script src="../../assets/js/ol-debug.js"></script>
+    <script src="zoom-effect.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Styling interaction render intents | Chapter 6</title>
+    <link rel="stylesheet" href="../../assets/css/ol.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pane">
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="js-draw-or-select">Draw or Select Interaction: </label>
+                <select id="js-draw-or-select" class="form-control">
+                    <option value="draw" selected>Draw</option>
+                    <option value="select">Select</option>
+                </select>
+            </div>
+        </form>
+    </div>
+    <div id="js-map" class="map"></div>
+    <script src="../../assets/js/ol-debug.js"></script>
+    <script src="styling-interaction-render-intents.js"></script>
+</body>
+</html>

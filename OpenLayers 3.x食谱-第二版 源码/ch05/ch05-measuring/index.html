@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Measuring distances and areas | Chapter 5</title>
+    <link rel="stylesheet" href="../../assets/css/ol.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="js-map" class="map"></div>
+    <div class="pane">
+        <h1>Measuring</h1>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Measurement type</h3>
+            </div>
+            <form class="measuring-types">
+                <div class="form-group">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="measurement" value="Polygon" checked>
+                            Area
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="measurement" value="LineString">
+                            Distance
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Result</h3>
+            </div>
+            <div class="result-wrapper">
+                <samp id="js-result">n/a</samp>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/js/ol-debug.js"></script>
+    <script src="../../assets/js/jquery.js"></script>
+    <script src="measuring.js"></script>
+</body>
+</html>

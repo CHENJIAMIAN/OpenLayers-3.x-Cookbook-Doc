@@ -1,0 +1,29 @@
+.map {
+    position: absolute;
+    top: 75px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: Arial, sans-serif;
+}
+
+.pane {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 75px;
+    background: ghostwhite;
+    border-bottom: 2px solid lightsteelblue;
+    box-sizing: border-box;
+    padding: 15px 20px 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+.ol-attribution > ul {
+    font-size: 3rem;
+}
+
+.label {
+    font-size: 95%;
+}

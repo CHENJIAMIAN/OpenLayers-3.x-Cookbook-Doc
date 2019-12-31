@@ -1,0 +1,33 @@
+.map {
+    position: absolute;
+    top: 52px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: Arial, sans-serif;
+}
+
+.pane {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 52px;
+    background: ghostwhite;
+    border-bottom: 2px solid lightsteelblue;
+    box-sizing: border-box;
+    padding: 15px 20px 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    margin-right: 20px;
+}
+
+.form-group  label {
+    margin-right: 8px;
+}
+
+.ol-attribution > ul {
+    font-size: 2.8rem;
+}

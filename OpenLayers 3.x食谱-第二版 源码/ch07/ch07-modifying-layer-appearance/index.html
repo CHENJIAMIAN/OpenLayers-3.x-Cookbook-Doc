@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Modifying layer appearance | Chapter 7</title>
+    <link rel="stylesheet" href="../../assets/css/ol.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pane">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Colour</h3>
+            </div>
+            <div class="panel-body">
+                <form>
+                    <select id="js-colour" class="form-control">
+                        <option value="colour">Colour</option>
+                        <option value="blackAndWhite">Black &amp; White</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Brightness</h3>
+            </div>
+            <div class="panel-body">
+                <form>
+                    <button id="js-darker" type="button" class="btn btn-danger">
+                        <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                    <button id="js-lighter" type="button" class="btn btn-success">
+                        <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="js-map" class="map"></div>
+
+    <script src="../../assets/js/ol-debug.js"></script>
+    <script src="../../assets/js/d3-color.min.js"></script>
+    <script src="modifying-layer-appearance.js"></script>
+</body>
+</html>

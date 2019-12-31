@@ -1,0 +1,28 @@
+{
+  "exports": [
+    "ol.Map",
+    "ol.View",
+    "ol.layer.Tile",
+    "ol.source.OSM",
+    "ol.control.defaults",
+    "ol.Collection#extend",
+    "ol.control.FullScreen"
+  ],
+  "compile": {
+    "externs": [
+      "externs/oli.js",
+      "externs/olx.js"
+    ],
+    "define": [
+      "goog.DEBUG=false",
+      "ol.ENABLE_DOM=false",
+      "ol.ENABLE_WEBGL=false",
+      "ol.ENABLE_PROJ4JS=false",
+      "ol.ENABLE_VECTOR=false",
+      "ol.ENABLE_IMAGE=false"
+    ],
+    "compilation_level": "ADVANCED",
+    "output_wrapper": ";(function(){%output%})();",
+    "manage_closure_dependencies": true
+  }
+}

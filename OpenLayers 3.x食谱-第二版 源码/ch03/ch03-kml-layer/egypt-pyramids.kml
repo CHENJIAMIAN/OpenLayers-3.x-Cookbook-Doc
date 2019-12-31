@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <Style id="pyramidStyle">
+            <LineStyle>
+                <color>64143C6E</color>
+                <width>5</width>
+            </LineStyle>
+            <PolyStyle>
+                <fill>1</fill>
+            </PolyStyle>
+        </Style>
+        <Folder>
+            <name>OGRGeoJSON</name>
+            <Placemark>
+                <styleUrl>#pyramidStyle</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>31.134234666824334,29.980085425787017 31.135371923446648,29.978115224832163 31.1330759525299,29.978115224832163 31.134234666824334,29.980085425787017</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark>
+                <styleUrl>#pyramidStyle</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>31.130779981613152,29.976888476193519 31.131874322891228,29.974992562133668 31.129723191261277,29.974983268348165 31.130779981613152,29.976888476193519</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+          <Placemark>
+              <styleUrl>#pyramidStyle</styleUrl>
+              <Polygon>
+                  <outerBoundaryIs>
+                      <LinearRing>
+                          <coordinates>31.128320395946496,29.972929320424502 31.128851473331448,29.972060329673234 31.127800047397606,29.972051035613426 31.128320395946496,29.972929320424502</coordinates>
+                      </LinearRing>
+                  </outerBoundaryIs>
+              </Polygon>
+          </Placemark>
+        </Folder>
+    </Document>
+</kml>

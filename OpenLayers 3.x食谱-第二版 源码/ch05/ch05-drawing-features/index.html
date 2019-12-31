@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Drawing features across multiple vector layers | Chapter 5</title>
+    <link rel="stylesheet" href="../../assets/css/ol.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="js-map" class="map"></div>
+    <div class="pane">
+        <h1>Drawing Features</h1>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Layer</h3>
+            </div>
+            <form>
+                <div class="form-group">
+                    <select id="js-layer-select" class="form-control">
+                        <option value="vectorLayer1">Vector Layer 1</option>
+                        <option value="vectorLayer2">Vector Layer 2</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Geometry type</h3>
+            </div>
+            <form class="geom-types">
+                <div class="form-group">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="geometries" value="None" checked>
+                            None
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="geometries" value="Point">
+                            Point
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="geometries" value="LineString">
+                            LineString
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="geometries" value="Polygon">
+                            Polygon
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="geometries" value="Circle">
+                            Circle
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../../assets/js/ol-debug.js"></script>
+    <script src="../../assets/js/jquery.js"></script>
+    <script src="drawing-features.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Managing map's controls | Chapter 1</title>
+    <link rel="stylesheet" href="../../assets/css/ol.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="js-map" class="map"></div>
+    <div class="pane">
+        <h1>Controls</h1>
+        <ul id="js-controls" class="controls">
+            <li>
+                <label>
+                    <input type="checkbox" checked value="zoomControl">
+                    <span>Zoom control</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" checked value="attributionControl">
+                    <span>Attribution control</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" checked value="rotateControl">
+                    <span>Rotate control</span>
+                </label>
+            </li>
+        </ul>
+    </div>
+    <script src="../../assets/js/ol-debug.js"></script>
+    <script src="../../assets/js/jquery.js"></script>
+    <script src="map-controls.js"></script>
+</body>
+</html>

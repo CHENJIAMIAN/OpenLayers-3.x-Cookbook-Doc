@@ -1,0 +1,52 @@
+.map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 20%;
+    font-family: Arial, sans-serif;
+}
+
+.pane {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    background: ghostwhite;
+    border-left: 5px solid lightsteelblue;
+    box-sizing: border-box;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 12px;
+}
+
+.layers {
+    cursor: move;
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.layers::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    border: 4px solid lightsteelblue;
+    z-index: 0;
+}
+
+.layers li {
+    z-index: 1;
+    position: relative;
+    line-height: 38px;
+    display: block;
+    height: 38px;
+    padding: 0 10px;
+}

@@ -1,0 +1,210 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74, 40.71]
+      },
+      "properties": {
+        "name": "New York, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.99, 39.73]
+      },
+      "properties": {
+        "name": "Denver, CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.33, 47.61]
+      },
+      "properties": {
+        "name": "Seattle, WA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-115.17, 36.12]
+      },
+      "properties": {
+        "name": "Las Vegas, NV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.35, 29.97]
+      },
+      "properties": {
+        "name": "Houston, TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.42, 33.65]
+      },
+      "properties": {
+        "name": "Atlanta, GA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.65, 41.90]
+      },
+      "properties": {
+        "name": "Chicago, IL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.02, 42.42]
+      },
+      "properties": {
+        "name": "Detriot, MI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.60, 35.40]
+      },
+      "properties": {
+        "name": "Oklahoma Cty, OK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-108.53, 45.80]
+      },
+      "properties": {
+        "name": "Billings, MT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.28, 25.82]
+      },
+      "properties": {
+        "name": "Miami Intl, FL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.22, 43.57]
+      },
+      "properties": {
+        "name": "Boise, ID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.80, 46.90]
+      },
+      "properties": {
+        "name": "Fargo, ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-87.27539062499999, 36.4566360115962],
+          [-75.9375, 36.668418918947864]
+        ]
+      },
+      "properties": null
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-94.48242187499999, 39.027718840211605],
+          [-96.064453125, 41.244772343082076],
+          [-96.6796875, 43.38908193911749],
+          [-93.1640625, 44.90257799628887]
+        ]
+      },
+      "properties": null
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-112.06054687500001, 33.28461996888768],
+          [-106.5234375, 35.02999636902565],
+          [-101.865234375, 33.57801474614398],
+          [-106.34765625, 31.80289258670676]
+        ]
+      },
+      "properties": null
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-121.46484374999999, 38.47939467327646],
+          [-121.81640625, 37.23032838760386],
+          [-119.26757812500001, 36.31512514748053],
+          [-118.38867187499999, 33.94335994657882],
+          [-116.982421875, 32.472695022061515]
+        ]
+      },
+      "properties": null
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-123.046875, 43.96119063892027],
+          [-122.607421875, 45.460130637921],
+          [-117.42187499999999, 47.63578359086486]
+        ]
+      },
+      "properties": null
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-77.87109375000001, 34.161818161230386],
+          [-81.56250000000001, 30.372875188118016],
+          [-82.44140625, 27.83907609477781]
+        ]
+      },
+      "properties": null
+    }
+  ]
+}

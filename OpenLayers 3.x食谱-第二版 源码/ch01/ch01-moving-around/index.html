@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Moving around the map | Chapter 1</title>
+    <link rel="stylesheet" href="../../assets/css/ol.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="js-map" class="map"></div>
+    <div class="pane">
+        <h1>Navigation</h1>
+
+        <label>
+            <p>Pan to a city</p>
+            <select id="js-city">
+                <option value="12.5,41.9">Rome (Italy)</option>
+                <option value="30.517,50.45">Kiev (Ukraine)</option>
+                <option value="-9.183,38.7">Lisbon (Portugal)</option>
+                <option value="-0.117,51.5">London (England)</option>
+                <option value="14.417,50.083">Prague (Czech Rep)</option>
+            </select>
+        </label>
+
+        <label>
+            <p>Zoom</p>
+            <input type="number" id="js-zoom">
+        </label>
+
+        <label>
+            <p>Rotation</p>
+            <input type="number" id="js-rotate">
+        </label>
+
+        <label>
+            <p>Lon</p>
+            <input type="number" id="js-lon">
+        </label>
+
+        <label>
+            <p>Lat</p>
+            <input type="number" id="js-lat">
+        </label>
+    </div>
+    <script src="../../assets/js/ol-debug.js"></script>
+    <script src="moving-around.js"></script>
+</body>
+</html>

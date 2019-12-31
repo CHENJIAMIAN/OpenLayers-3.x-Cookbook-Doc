@@ -1,0 +1,42 @@
+.map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: Arial, sans-serif;
+}
+
+.ol-attribution > ul {
+    font-size: 1.3rem;
+}
+
+.ol-layer-switcher {
+    bottom: .5em;
+    left: .5em;
+}
+
+.ol-layer-switcher ul {
+    background-color: rgba(0,60,136,.5);
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.9em;
+}
+
+.ol-layer-switcher li {
+    display: block;
+    padding: 8px;
+}
+
+.ol-layer-switcher li:hover {
+    background: #7b98bc;
+    cursor: pointer;
+}
+
+.ol-layer-switcher .active {
+    background: #7b98bc;
+}

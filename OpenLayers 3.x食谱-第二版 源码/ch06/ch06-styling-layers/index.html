@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Styling Layers | Chapter 6</title>
+    <link rel="stylesheet" href="../../assets/css/ol.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="../../assets/css/spectrum.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="js-map" class="map"></div>
+    <div class="pane">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Stroke width</h3>
+                <span id="js-stroke-width-value" class="label label-default">1</span>
+            </div>
+            <div class="panel-body">
+                <div id="js-stroke-width"></div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Stroke colour</h3>
+            </div>
+            <div class="panel-body">
+                <input id="js-stroke-colour">
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Fill colour</h3>
+            </div>
+            <div class="panel-body">
+                <input id="js-fill-colour">
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Fill opacity</h3>
+                <span id="js-fill-opacity-value" class="label label-default">50%</span>
+            </div>
+            <div class="panel-body">
+                <div id="js-fill-opacity"></div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Stroke style</h3>
+            </div>
+            <div class="panel-body">
+                <form>
+                    <select id="js-stroke-style" class="form-control">
+                        <option value="solid">Solid</option>
+                        <option value="dashed">Dashed</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/js/ol-debug.js"></script>
+    <script src="../../assets/js/jquery.js"></script>
+    <script src="../../assets/js/jquery-ui.js"></script>
+    <script src="../../assets/js/spectrum.js"></script>
+    <script src="styling-layers.js"></script>
+</body>
+</html>
